@@ -1,0 +1,52 @@
+﻿@model Country
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+    <table>
+       <tr>
+           <th>Name</th>
+            <th>@Model.Name</th>
+       </tr>
+        <tr>
+            <th>Region</th>
+            <th>@Model.Region</th>
+        </tr>
+        <tr>
+            <th>Capitals</th>
+            <th>
+                @if (Model.Capital != null) {
+                    @String.Join(",", Model.Capital)
+                }
+            </th>
+        </tr>
+        <tr>
+            <th>Languages</th>
+            <th>
+                @if (Model.Languages != null) {
+                    @String.Join(",", Model.Languages)
+                }
+            </th>
+        </tr>
+
+    </table>
+</body>
+</html>

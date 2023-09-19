@@ -1,0 +1,14 @@
+D:\Projects\TestAssignment\Brackets\bin\Debug\net7.0\Brackets.exe
+D:\Projects\TestAssignment\Brackets\bin\Debug\net7.0\Brackets.deps.json
+D:\Projects\TestAssignment\Brackets\bin\Debug\net7.0\Brackets.runtimeconfig.json
+D:\Projects\TestAssignment\Brackets\bin\Debug\net7.0\Brackets.dll
+D:\Projects\TestAssignment\Brackets\bin\Debug\net7.0\Brackets.pdb
+D:\Projects\TestAssignment\Brackets\obj\Debug\net7.0\Brackets.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\TestAssignment\Brackets\obj\Debug\net7.0\Brackets.AssemblyInfoInputs.cache
+D:\Projects\TestAssignment\Brackets\obj\Debug\net7.0\Brackets.AssemblyInfo.cs
+D:\Projects\TestAssignment\Brackets\obj\Debug\net7.0\Brackets.csproj.CoreCompileInputs.cache
+D:\Projects\TestAssignment\Brackets\obj\Debug\net7.0\Brackets.dll
+D:\Projects\TestAssignment\Brackets\obj\Debug\net7.0\refint\Brackets.dll
+D:\Projects\TestAssignment\Brackets\obj\Debug\net7.0\Brackets.pdb
+D:\Projects\TestAssignment\Brackets\obj\Debug\net7.0\Brackets.genruntimeconfig.cache
+D:\Projects\TestAssignment\Brackets\obj\Debug\net7.0\ref\Brackets.dll

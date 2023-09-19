@@ -1,0 +1,51 @@
+﻿@model List<Country>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <form method="get">
+        <p>
+            <input type="search" name="countryName" placeholder="Search country">
+            <input type="submit" value="Search">
+        </p>
+    </form>
+    <table>
+        <tr>
+            <th>Country Name</th>
+            <th>Capitals</th>
+        </tr>
+        @foreach(var country in Model) {
+            <tr>
+                <th><a asp-controller="Home" asp-action="Details" asp-route-country-id="@country.Id">@country.Name</a></th>
+                <th>@if (country.Capital != null)
+                    {
+                        @String.Join(",", country.Capital)
+                    }
+                </th>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

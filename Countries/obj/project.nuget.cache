@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "etljowbVaxBpiLfpnfUzPlC5/v2gz7KwQg1gCMvYxBZXBXYR50fLsloE2cT9cDDh7zl9n5AlfwgI022+V5fTcw==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\TestAssignment\\Countries\\Countries.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Claire\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
