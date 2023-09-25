@@ -28,6 +28,7 @@ namespace Countries.Services
             _cache.TryGetValue("CountryList", out result);
             if (result == null) {
                 result = await GetCountryList();
+                _cache.TryGetValue("CountryList", out result);
             }
             return result.Where(country => country.Id == Id).First();
         }
@@ -37,7 +38,7 @@ namespace Countries.Services
             if (result == null) {
                 result = await GetCountryList();
             }
-            return result.Where(country => country.Name == countryName).ToList();
+            return result.Where(country => country.Name.ToLower() == countryName.ToLower()).ToList();
         }
         async public Task<IList<Country>> GetCountryList() {
             IList<Country>? results;

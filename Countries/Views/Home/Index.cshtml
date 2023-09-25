@@ -37,7 +37,7 @@
         </tr>
         @foreach(var country in Model) {
             <tr>
-                <th><a asp-controller="Home" asp-action="Details" asp-route-country-id="@country.Id">@country.Name</a></th>
+                <th><a asp-controller="Home" asp-action="Details" asp-route-countryId="@country.Id">@country.Name</a></th>
                 <th>@if (country.Capital != null)
                     {
                         @String.Join(",", country.Capital)
